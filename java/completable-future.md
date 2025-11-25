@@ -1,4 +1,3 @@
-```markdown
 # CompletableFuture & Async Orchestration
 
 ## 1. Why CompletableFuture?
@@ -69,4 +68,3 @@ CompletableFuture.supplyAsync(() -> {
 **Goal:** Keep the main thread free. Only call `join()` at the very end if absolutely necessary.
 ```
 
-```
