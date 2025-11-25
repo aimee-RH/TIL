@@ -67,6 +67,6 @@ CompletableFuture.supplyAsync(() -> {
   * **`thenAccept`/`thenApply`**: Non-blocking callbacks.
 
 **Goal:** Keep the main thread free. Only call `join()` at the very end if absolutely necessary.
-
+```
 
 ```
