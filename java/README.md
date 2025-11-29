@@ -21,7 +21,11 @@ A collection of core concepts, best practices, and deep dives into the Java ecos
   - Chaining and combining asynchronous tasks.
   - **Critical:** Using custom Thread Pools to avoid starvation.
   - Exception handling patterns.
-
+  
+- **[Thread Safety & Locks](concurrency/thread-safety.md)**
+  - The Concurrency Triad: Atomicity, Visibility, Ordering.
+  - `volatile` vs `synchronized`.
+  - Optimistic Locking (CAS) & The ABA Problem.
 ---
 
 ## 📦 Collections & Data Structures
